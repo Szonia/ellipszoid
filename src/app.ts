@@ -55,9 +55,9 @@ class Ellipszoid {
         if(this.volumeInput) {
         this.volumeInput.value = String(volume);
         }
-        new Ellipszoid();
+        
     }
         
 }
-    
+new Ellipszoid();    
 
