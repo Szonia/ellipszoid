@@ -1,0 +1,54 @@
+
+<!-- //
+* File: index.html
+* Author: Szamosfalvi Szonja
+* Copyright: 2024, Szamosfalvi Szonja
+* Group: Szoft I-1-N
+* Date: 2024-05-30
+* Github: https://github.com/szonia/
+* Licenc: GNU GPL
+*/ -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doga</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ellipszoid térfogat számítás</h1>
+      <div class="form">
+        <div class="input">
+          <div class="input">
+            <label for="axisA" class="form-label">A tengely:</label>
+            <input type="text" class="form-control" id="axisA">
+          </div>
+          <div class="input">
+            <label for="axisB" class="form-label">B tengely:</label>
+            <input type="text" class="form-control" id="axisB">
+          </div>
+          <div class="input">
+            <label for="axisC" class="form-label">C tengely:</label>
+            <input type="text" class="form-control" id="axisC">
+          </div>
+        <div>
+          <button class="btn btn-light" id="calcButton">Számítás</button>
+        </div>
+        <div class="button">
+          <label for="volume" class="form-label">A kapott térfogat:</label>
+          <input type="text" class="form-control" id="volume" readonly>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
